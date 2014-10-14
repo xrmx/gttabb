@@ -11,11 +11,14 @@ https://xrmx.cartodb.com/viz/0c6e3b60-538d-11e4-a381-0e9d821ea90d/map
 
 ## How to use
 
+The script use google geocode API for getting coordinates of point of sales.
+In order to use the API you should have an account.
+
 Should work fine with cpython 2.7+, pypy > 2.4.0
 
 ```
 pip install -r requirements.txt
-python gttabb <google geocode api key> <pdf> [<pdf>]
+python gttabb.py <google geocode api key> <pdf> [<pdf>]
 ```
 
 ## Notes
